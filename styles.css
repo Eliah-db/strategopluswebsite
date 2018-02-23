@@ -1,8 +1,12 @@
 @charset "UTF-8";
 /* CSS Document */
+.container-fluid img {
+	background-size: cover;
+}
 
-.jumbotron {
-	margin-top: 15px;
+.card {
+	display: inline-block;
+	margin: 10px;
 }
 
 
