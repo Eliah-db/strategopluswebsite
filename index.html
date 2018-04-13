@@ -24,15 +24,74 @@
     </ul>
   </div>
 </nav>
-<div class="jumbotron" style="text-align: center">
-  <h1 class="display-4">Stratego Plus</h1>
+<div class="jumbotron" style="text-align: center; margin-bottom: 0px;">
+  <h1 class="display-4" style="padding-top: 50px;">Stratego Plus</h1>
   <p class="lead">Een uitgebreide versie van stratego.</p>
   <hr class="my-4">
   <p>Gemaakt voor het Ingenieursproject Informatica door Joti, Lucas, Martijn, Zelim & Eliah</p>
   <p class="lead" style="display: inline-block"> <a class="btn btn-primary btn-lg" href="handleiding.html" role="button">Handleiding</a> </p>
-  <p class="lead" style="display: inline-block"> <a class="btn btn-secondary btn-lg" href="https://github.com/LucasRouckhout/stratego_plus" role="button" target="_blank">Code</a> </p>
+  <p class="lead" style="display: inline-block; padding-bottom: 50px;"> <a class="btn btn-secondary btn-lg" href="https://github.com/LucasRouckhout/stratego_plus" role="button" target="_blank">Code</a> </p>
 </div>
-<div id="main_content">
+<div id="main_content" style="margin-left: 5%; margin-right: 5%;">
+
+<h2 class="display-4" style="margin-top: 50px;">Spel</h2>
+<hr class="my-4">
+
+<div class="container">
+	<img src="img/game/bord1.png" alt="bord" width="45%" />
+	<img src="img/game/bord2.png" alt="bord" width="45%" style="margin-left: 8%" />
+</div>
+
+<h2 class="display-4" style="margin-top: 50px;">Code snippets</h2>
+<hr class="my-4">
+<h7 class="text-secondary">Klik rechts of links van de afbeelding om respectievelijk naar de volgende of vorige afbeelding te navigeren</h7>
+
+<div class="container">
+	<div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="height: 700px;" >
+		<div class="carousel-inner">
+			<div class="carousel-item active" style="padding: 5%;">
+				<img class="d-block w-40" src="img/game/code1.png" alt="1">
+				<hr class="my-4">
+				<h7 class="text-primary">De setup methode initialiseert het spelbord en roept de juiste methodes op om het spel te starten.</h7>
+			</div>
+			<div class="carousel-item" style="padding: 5%;">
+				<img class="d-block w-60" src="img/game/code2.png" alt="2">
+				<hr class="my-4">
+				<h7 class="text-primary">Deze methodes regelen de overgang tussen de matrix posities van de tegels en de coordinaten van het scherm.</h7>
+			</div>
+			<div class="carousel-item" style="padding: 5%;">
+				<img class="d-block w-60" src="img/game/code3.png" alt="3">
+				<hr class="my-4">
+				<h7 class="text-primary">De construct methode van het bord vult het 2D array met tegels die het spelbord maken.</h7>
+			</div>
+			<div class="carousel-item" style="padding: 5%;">
+				<img class="d-block w-60" src="img/game/code4.png" alt="4">
+				<hr class="my-4">
+				<h7 class="text-primary">Dit zijn de methodes die de tegels van het bord maken en updaten per tegel.</h7>
+			</div>
+			<div class="carousel-item" style="padding: 5%;">
+				<img class="d-block w-60" src="img/game/code5.png" alt="5">
+				<hr class="my-4">
+				<h7 class="text-primary">Een van de classen die de individuele stukken definiëren.</h7>
+			</div>
+			<div class="carousel-item" style="padding: 5%;">
+				<img class="d-block w-50" src="img/game/code6.png" alt="6">
+				<hr class="my-4">
+				<h7 class="text-primary">De tegel klasse.</h7>
+			</div>
+		</div>
+	<a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev" style="width: 400px; opacity: 0;">
+	<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	<span class="sr-only">Previous</span>
+	</a>
+	<a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next" style="width: 400px; opacity: 0;">
+	<span class="carousel-control-next-icon" aria-hidden="true"></span>
+	<span class="sr-only">Next</span>
+	</a>
+	</div>
+</div>
+
+
 </div>
 
 <!-- Optional JavaScript --> 
